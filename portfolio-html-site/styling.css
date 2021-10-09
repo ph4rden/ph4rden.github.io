@@ -1,0 +1,37 @@
+.navigation
+{
+    margin: auto;
+    height: 50%;
+    width: 50%;
+    
+    display: flex;
+    border: solid 1px aliceblue;
+    border-radius: 30%;
+}
+
+.intro
+{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    word-spacing: 10px;
+    font-size: 25px;
+    text-decoration: underline aliceblue;
+}
+
+.information
+{
+    color: aliceblue;
+    text-align: left ;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    margin-left: 20%;
+}
+
+a {
+    color: hotpink;
+}
+
+.gifs{
+    text-align: center;
+}
