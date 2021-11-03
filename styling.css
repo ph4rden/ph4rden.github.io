@@ -1,37 +1,63 @@
-.navigation
-{
-    margin: auto;
-    height: 50%;
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    background-color: #24252a; 
+}
+
+li, a, button {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor:pointer; 
+    margin-right: auto;
+
+}
+
+.navLinks li {
+    display:inline-block;
+    padding: 0px 20px;
+
+}
+
+.navLinks li a:hover {
+    transition: all 0.3s ease 0s;
+    color: skyblue;
+
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.5);
+}
+
+h1{
+    color: #edf0f1;
+    margin:auto;
     width: 50%;
-    
-    display: flex;
-    border: solid 1px aliceblue;
-    border-radius: 30%;
-}
-
-.intro
-{
-    color: aliceblue;
+    padding: 10px;
     text-align: center;
-    font-family: 'Comfortaa', cursive;
-    word-spacing: 10px;
-    font-size: 25px;
-    text-decoration: underline aliceblue;
-}
-
-.information
-{
-    color: aliceblue;
-    text-align: left ;
-    font-family: 'Comfortaa', cursive;
-    font-size: 20px;
-    margin-left: 20%;
-}
-
-a {
-    color: hotpink;
-}
-
-.gifs{
-    text-align: center;
+    border: 3px black;
 }
